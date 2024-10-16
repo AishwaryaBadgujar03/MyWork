@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form demo</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>My feedback form</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="checkemotion">Please check all the emotions that apply to you</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="angry" id="angry" value="angry">
+                            <label for="angry">Angry</label>
+
+                            <input type="checkbox" name="sad" id="sad" value="sad">
+                            <label for="sad">Sad</label>
+
+                            <input type="checkbox" name="happy" id="happy" value="happy">
+                            <label for="happy">Happy</label>
+
+                            <input type="checkbox" name="ambivalent" id="ambivalent" value="ambivalent">
+                            <label for="ambivalent">Ambivalent</label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="service">How satisfied were you with our service?</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="verysatisfied" id="verysatisfied" value="verysatisfied">
+                            <label for="verysatisfied">Very Satisfied</label>
+
+                            <input type="radio" name="satisfied" id="satisfied" value="satisfied">
+                            <label for="satisfied">Satisfied</label>
+
+                            <input type="radio" name="didntcare" id="didntcare" value="didntcare">
+                            <label for="didntcare">Didn't care</label>
+
+                            <input type="radio" name="dissatisfied" id="dissatisfied"" value="dissatisfied"">
+                            <label for="dissatisfied"">Dissatisfied</label>
+
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label for="furthercomment">Further comment</label>
+                        </td>
+                        <td>
+                            <textarea name="comment" id="comment" cols="30" rows="5">Further comment</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="location" >Locations visited</label>
+                        </td>
+                        <td>
+                            <select name="selectlocation" id="selectlocation">
+                                <option value="pune">Pune</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="banglore">Banglore</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button">submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
